@@ -1,0 +1,32 @@
+.header {
+    &__logo {
+        text-align: center;
+        padding: 56px 0;
+        &_img {
+        }
+    }
+
+    &__menu {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        &-item {
+            margin-right: 30px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            /* identical to box height */
+
+            /* 1st */
+
+            color: #212832;
+            text-decoration: none;
+        }
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+

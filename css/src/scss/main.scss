@@ -1,0 +1,9 @@
+@import url('../libs/bts/bootstrap-grid.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './header.scss';
+@import './best.scss';
